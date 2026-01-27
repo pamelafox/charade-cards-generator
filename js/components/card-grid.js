@@ -37,7 +37,9 @@ class CardGrid extends HTMLElement {
       .map((card) => {
         const wordAttr = card.word ? `word="${this.escapeHtml(card.word)}"` : '';
         const wordEsAttr = card.wordEs ? `word-es="${this.escapeHtml(card.wordEs)}"` : '';
-        return `<charade-card ${wordAttr} ${wordEsAttr} emoji="${this.escapeHtml(card.image)}"></charade-card>`;
+        const wordZhAttr = card.wordZh ? `word-zh="${this.escapeHtml(card.wordZh)}"` : '';
+        const wordArAttr = card.wordAr ? `word-ar="${this.escapeHtml(card.wordAr)}"` : '';
+        return `<charade-card ${wordAttr} ${wordEsAttr} ${wordZhAttr} ${wordArAttr} emoji="${this.escapeHtml(card.image)}"></charade-card>`;
       })
       .join('');
 

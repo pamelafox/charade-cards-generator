@@ -20,6 +20,8 @@ function getElements() {
     loadingSpinner: document.getElementById('loading-spinner'),
     langEn: document.getElementById('lang-en'),
     langEs: document.getElementById('lang-es'),
+    langZh: document.getElementById('lang-zh'),
+    langAr: document.getElementById('lang-ar'),
     diffEasy: document.getElementById('diff-easy'),
     diffMedium: document.getElementById('diff-medium'),
     diffHard: document.getElementById('diff-hard'),
@@ -31,10 +33,12 @@ function getElements() {
  * @returns {string[]}
  */
 function getSelectedLanguages() {
-  const { langEn, langEs } = getElements();
+  const { langEn, langEs, langZh, langAr } = getElements();
   const languages = [];
   if (langEn?.checked) languages.push('en');
   if (langEs?.checked) languages.push('es');
+  if (langZh?.checked) languages.push('zh');
+  if (langAr?.checked) languages.push('ar');
   return languages.length > 0 ? languages : ['en']; // Default to English if none selected
 }
 
@@ -133,7 +137,7 @@ function handlePrint() {
  * Initialize the application
  */
 async function init() {
-  const { themeContainer, printBtn, langEn, langEs, diffEasy, diffMedium, diffHard } = getElements();
+  const { themeContainer, printBtn, langEn, langEs, langZh, langAr, diffEasy, diffMedium, diffHard } = getElements();
 
   // Load themes
   try {
@@ -162,6 +166,8 @@ async function init() {
   // Set up filter checkbox handlers
   langEn?.addEventListener('change', handleFilterChange);
   langEs?.addEventListener('change', handleFilterChange);
+  langZh?.addEventListener('change', handleFilterChange);
+  langAr?.addEventListener('change', handleFilterChange);
   diffEasy?.addEventListener('change', handleFilterChange);
   diffMedium?.addEventListener('change', handleFilterChange);
   diffHard?.addEventListener('change', handleFilterChange);

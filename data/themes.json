@@ -5,7 +5,7 @@
       "id": "animals",
       "name": "Animals",
       "description": "Common animals perfect for all ages",
-      "wordCount": 24,
+      "wordCount": 40,
       "icon": "🐾"
     },
     {
@@ -35,6 +35,13 @@
       "description": "Jobs and professions to act out",
       "wordCount": 24,
       "icon": "👷"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Athletic activities and games",
+      "wordCount": 28,
+      "icon": "⚽"
     }
   ]
 }

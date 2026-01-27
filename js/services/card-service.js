@@ -16,6 +16,8 @@
  * @typedef {Object} Word
  * @property {string} text - Word to act out (English)
  * @property {string} [es] - Spanish translation
+ * @property {string} [zh] - Chinese translation
+ * @property {string} [ar] - Arabic translation
  * @property {string} emoji - Emoji representation
  * @property {string} [difficulty] - easy|medium|hard
  */
@@ -33,6 +35,8 @@
  * @typedef {Object} GeneratedCard
  * @property {string} [word] - English word text
  * @property {string} [wordEs] - Spanish word text
+ * @property {string} [wordZh] - Chinese word text
+ * @property {string} [wordAr] - Arabic word text
  * @property {string} image - Emoji or image URL
  * @property {boolean} isEmoji - True if image is emoji
  */
@@ -126,6 +130,16 @@ export function generateCards(themeData, options = {}) {
     // Include Spanish if selected and available
     if (languages.includes('es') && word.es) {
       card.wordEs = word.es;
+    }
+    
+    // Include Chinese if selected and available
+    if (languages.includes('zh') && word.zh) {
+      card.wordZh = word.zh;
+    }
+    
+    // Include Arabic if selected and available
+    if (languages.includes('ar') && word.ar) {
+      card.wordAr = word.ar;
     }
     
     return card;
