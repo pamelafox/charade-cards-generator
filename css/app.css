@@ -1,0 +1,32 @@
+/* Application-specific overrides */
+
+/* Ensure cards section has minimum height for visual feedback */
+#cards-section {
+  min-height: 200px;
+}
+
+/* Theme selector cards hover effect */
+.theme-card {
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.theme-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.theme-card.selected {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 2px var(--bs-primary);
+}
+
+/* Card grid preview styling */
+card-grid {
+  display: block;
+}
+
+/* Loading state */
+.loading card-grid {
+  opacity: 0.5;
+}

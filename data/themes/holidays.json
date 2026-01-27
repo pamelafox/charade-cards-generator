@@ -1,0 +1,32 @@
+{
+  "id": "holidays",
+  "name": "Holidays",
+  "description": "Holiday-themed words and celebrations",
+  "icon": "🎄",
+  "words": [
+    { "text": "Christmas Tree", "es": "Árbol de Navidad", "emoji": "🎄", "difficulty": "easy" },
+    { "text": "Santa Claus", "es": "Papá Noel", "emoji": "🎅🏽", "difficulty": "easy" },
+    { "text": "Pumpkin", "es": "Calabaza", "emoji": "🎃", "difficulty": "easy" },
+    { "text": "Ghost", "es": "Fantasma", "emoji": "👻", "difficulty": "easy" },
+    { "text": "Easter Bunny", "es": "Conejo de Pascua", "emoji": "🐰", "difficulty": "easy" },
+    { "text": "Fireworks", "es": "Fuegos Artificiales", "emoji": "🎆", "difficulty": "easy" },
+    { "text": "Birthday Cake", "es": "Pastel de Cumpleaños", "emoji": "🎂", "difficulty": "easy" },
+    { "text": "Present", "es": "Regalo", "emoji": "🎁", "difficulty": "easy" },
+    { "text": "Candy Cane", "es": "Bastón de Caramelo", "emoji": "🍬", "difficulty": "easy" },
+    { "text": "Snowman", "es": "Muñeco de Nieve", "emoji": "⛄", "difficulty": "easy" },
+    { "text": "Turkey", "es": "Pavo", "emoji": "🦃", "difficulty": "medium" },
+    { "text": "Witch", "es": "Bruja", "emoji": "🧙🏾‍♀️", "difficulty": "medium" },
+    { "text": "Vampire", "es": "Vampiro", "emoji": "🧛🏻", "difficulty": "medium" },
+    { "text": "Reindeer", "es": "Reno", "emoji": "🦌", "difficulty": "medium" },
+    { "text": "Cupid", "es": "Cupido", "emoji": "💘", "difficulty": "medium" },
+    { "text": "Leprechaun", "es": "Duende", "emoji": "🍀", "difficulty": "medium" },
+    { "text": "Elf", "es": "Elfo", "emoji": "🧝🏼", "difficulty": "medium" },
+    { "text": "Menorah", "es": "Menorá", "emoji": "🕎", "difficulty": "medium" },
+    { "text": "Champagne", "es": "Champán", "emoji": "🍾", "difficulty": "hard" },
+    { "text": "Mummy", "es": "Momia", "emoji": "🧟", "difficulty": "hard" },
+    { "text": "Pilgrim", "es": "Peregrino", "emoji": "🎩", "difficulty": "hard" },
+    { "text": "Mistletoe", "es": "Muérdago", "emoji": "💋", "difficulty": "hard" },
+    { "text": "Dreidel", "es": "Dreidel", "emoji": "🪆", "difficulty": "hard" },
+    { "text": "Nutcracker", "es": "Cascanueces", "emoji": "🤖", "difficulty": "hard" }
+  ]
+}

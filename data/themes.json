@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "themes": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "description": "Common animals perfect for all ages",
+      "wordCount": 24,
+      "icon": "🐾"
+    },
+    {
+      "id": "food",
+      "name": "Food & Drinks",
+      "description": "Delicious items to act out",
+      "wordCount": 24,
+      "icon": "🍕"
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "description": "Verbs and activities to perform",
+      "wordCount": 24,
+      "icon": "🏃"
+    },
+    {
+      "id": "holidays",
+      "name": "Holidays",
+      "description": "Holiday-themed words and celebrations",
+      "wordCount": 24,
+      "icon": "🎄"
+    },
+    {
+      "id": "occupations",
+      "name": "Occupations",
+      "description": "Jobs and professions to act out",
+      "wordCount": 24,
+      "icon": "👷"
+    }
+  ]
+}

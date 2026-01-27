@@ -1,0 +1,33 @@
+{
+  "name": "charade-cards",
+  "version": "1.0.0",
+  "description": "Printable charade cards generator",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run && playwright test",
+    "test:unit": "vitest run",
+    "test:unit:watch": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "lint": "eslint js/",
+    "format": "prettier --write \"**/*.{js,css,html,json}\"",
+    "format:check": "prettier --check \"**/*.{js,css,html,json}\"",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@playwright/test": "^1.40.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.2.0",
+    "serve": "^14.2.0",
+    "vitest": "^1.2.0"
+  },
+  "keywords": [
+    "charades",
+    "party-game",
+    "printable",
+    "cards"
+  ],
+  "license": "MIT"
+}

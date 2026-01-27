@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://charade-cards.example.com/schemas/theme-index.json",
+  "title": "ThemeIndex",
+  "description": "Index file listing all available charade themes",
+  "type": "object",
+  "required": ["version", "themes"],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version for cache invalidation"
+    },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/ThemeSummary"
+      }
+    }
+  },
+  "definitions": {
+    "ThemeSummary": {
+      "type": "object",
+      "required": ["id", "name", "description", "wordCount", "icon"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]{1,29}$",
+          "description": "Unique theme identifier (kebab-case)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 50,
+          "description": "Display name for UI"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 200,
+          "description": "Brief description for theme selection"
+        },
+        "wordCount": {
+          "type": "integer",
+          "minimum": 10,
+          "description": "Total words available in this theme"
+        },
+        "icon": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8,
+          "description": "Emoji icon representing the theme"
+        }
+      }
+    }
+  }
+}

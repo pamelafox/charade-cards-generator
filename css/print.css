@@ -1,0 +1,45 @@
+/* Print-specific styles for Letter size, 12-card grid */
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.5in;
+  }
+
+  /* Hide non-printable elements */
+  .no-print,
+  header,
+  footer,
+  #theme-container,
+  #language-selection,
+  #difficulty-selection,
+  button {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Card grid - 3 columns, cards sized to fit 12 per page */
+  card-grid {
+    display: block;
+  }
+
+  charade-card {
+    width: 2.5in;
+    height: 2.5in;
+    display: inline-block;
+    vertical-align: top;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

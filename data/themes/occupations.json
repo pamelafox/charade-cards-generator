@@ -1,0 +1,32 @@
+{
+  "id": "occupations",
+  "name": "Occupations",
+  "description": "Jobs and professions to act out",
+  "icon": "👷",
+  "words": [
+    { "text": "Doctor", "es": "Doctor", "emoji": "👩🏽‍⚕️", "difficulty": "easy" },
+    { "text": "Teacher", "es": "Maestro", "emoji": "👨🏿‍🏫", "difficulty": "easy" },
+    { "text": "Firefighter", "es": "Bombero", "emoji": "👩🏼‍🚒", "difficulty": "easy" },
+    { "text": "Police Officer", "es": "Policía", "emoji": "👮🏾", "difficulty": "easy" },
+    { "text": "Chef", "es": "Chef", "emoji": "👨🏻‍🍳", "difficulty": "easy" },
+    { "text": "Farmer", "es": "Granjero", "emoji": "👩🏽‍🌾", "difficulty": "easy" },
+    { "text": "Pilot", "es": "Piloto", "emoji": "👨🏿‍✈️", "difficulty": "easy" },
+    { "text": "Astronaut", "es": "Astronauta", "emoji": "👩🏼‍🚀", "difficulty": "easy" },
+    { "text": "Artist", "es": "Artista", "emoji": "👨🏾‍🎨", "difficulty": "easy" },
+    { "text": "Singer", "es": "Cantante", "emoji": "🎤", "difficulty": "easy" },
+    { "text": "Mechanic", "es": "Mecánico", "emoji": "🔧", "difficulty": "medium" },
+    { "text": "Scientist", "es": "Científico", "emoji": "🔬", "difficulty": "medium" },
+    { "text": "Judge", "es": "Juez", "emoji": "⚖️", "difficulty": "medium" },
+    { "text": "Dentist", "es": "Dentista", "emoji": "🦷", "difficulty": "medium" },
+    { "text": "Detective", "es": "Detective", "emoji": "🔍", "difficulty": "medium" },
+    { "text": "Magician", "es": "Mago", "emoji": "🎩", "difficulty": "medium" },
+    { "text": "Lifeguard", "es": "Salvavidas", "emoji": "🏊🏽‍♂️", "difficulty": "medium" },
+    { "text": "Carpenter", "es": "Carpintero", "emoji": "🪚", "difficulty": "medium" },
+    { "text": "Archaeologist", "es": "Arqueólogo", "emoji": "🦴", "difficulty": "hard" },
+    { "text": "Conductor", "es": "Director de Orquesta", "emoji": "🎼", "difficulty": "hard" },
+    { "text": "Veterinarian", "es": "Veterinario", "emoji": "🐾", "difficulty": "hard" },
+    { "text": "Librarian", "es": "Bibliotecario", "emoji": "📚", "difficulty": "hard" },
+    { "text": "Electrician", "es": "Electricista", "emoji": "⚡", "difficulty": "hard" },
+    { "text": "Plumber", "es": "Plomero", "emoji": "🔧", "difficulty": "hard" }
+  ]
+}

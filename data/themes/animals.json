@@ -1,0 +1,32 @@
+{
+  "id": "animals",
+  "name": "Animals",
+  "description": "Common animals perfect for all ages",
+  "icon": "🐾",
+  "words": [
+    { "text": "Dog", "es": "Perro", "emoji": "🐕", "difficulty": "easy" },
+    { "text": "Cat", "es": "Gato", "emoji": "🐱", "difficulty": "easy" },
+    { "text": "Elephant", "es": "Elefante", "emoji": "🐘", "difficulty": "easy" },
+    { "text": "Lion", "es": "León", "emoji": "🦁", "difficulty": "easy" },
+    { "text": "Monkey", "es": "Mono", "emoji": "🐒", "difficulty": "easy" },
+    { "text": "Penguin", "es": "Pingüino", "emoji": "🐧", "difficulty": "easy" },
+    { "text": "Rabbit", "es": "Conejo", "emoji": "🐰", "difficulty": "easy" },
+    { "text": "Fish", "es": "Pez", "emoji": "🐟", "difficulty": "easy" },
+    { "text": "Bird", "es": "Pájaro", "emoji": "🐦", "difficulty": "easy" },
+    { "text": "Horse", "es": "Caballo", "emoji": "🐴", "difficulty": "easy" },
+    { "text": "Cow", "es": "Vaca", "emoji": "🐄", "difficulty": "easy" },
+    { "text": "Pig", "es": "Cerdo", "emoji": "🐷", "difficulty": "easy" },
+    { "text": "Snake", "es": "Serpiente", "emoji": "🐍", "difficulty": "medium" },
+    { "text": "Butterfly", "es": "Mariposa", "emoji": "🦋", "difficulty": "medium" },
+    { "text": "Kangaroo", "es": "Canguro", "emoji": "🦘", "difficulty": "medium" },
+    { "text": "Octopus", "es": "Pulpo", "emoji": "🐙", "difficulty": "medium" },
+    { "text": "Dolphin", "es": "Delfín", "emoji": "🐬", "difficulty": "medium" },
+    { "text": "Giraffe", "es": "Jirafa", "emoji": "🦒", "difficulty": "medium" },
+    { "text": "Shark", "es": "Tiburón", "emoji": "🦈", "difficulty": "medium" },
+    { "text": "Turtle", "es": "Tortuga", "emoji": "🐢", "difficulty": "medium" },
+    { "text": "Crocodile", "es": "Cocodrilo", "emoji": "🐊", "difficulty": "hard" },
+    { "text": "Flamingo", "es": "Flamenco", "emoji": "🦩", "difficulty": "hard" },
+    { "text": "Peacock", "es": "Pavo Real", "emoji": "🦚", "difficulty": "hard" },
+    { "text": "Gorilla", "es": "Gorila", "emoji": "🦍", "difficulty": "hard" }
+  ]
+}

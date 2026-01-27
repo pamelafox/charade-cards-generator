@@ -1,0 +1,32 @@
+{
+  "id": "food",
+  "name": "Food & Drinks",
+  "description": "Delicious items to act out",
+  "icon": "🍕",
+  "words": [
+    { "text": "Pizza", "es": "Pizza", "emoji": "🍕", "difficulty": "easy" },
+    { "text": "Ice Cream", "es": "Helado", "emoji": "🍦", "difficulty": "easy" },
+    { "text": "Hamburger", "es": "Hamburguesa", "emoji": "🍔", "difficulty": "easy" },
+    { "text": "Apple", "es": "Manzana", "emoji": "🍎", "difficulty": "easy" },
+    { "text": "Banana", "es": "Plátano", "emoji": "🍌", "difficulty": "easy" },
+    { "text": "Cookie", "es": "Galleta", "emoji": "🍪", "difficulty": "easy" },
+    { "text": "Cake", "es": "Pastel", "emoji": "🎂", "difficulty": "easy" },
+    { "text": "Popcorn", "es": "Palomitas", "emoji": "🍿", "difficulty": "easy" },
+    { "text": "Hot Dog", "es": "Perro Caliente", "emoji": "🌭", "difficulty": "easy" },
+    { "text": "Donut", "es": "Dona", "emoji": "🍩", "difficulty": "easy" },
+    { "text": "Spaghetti", "es": "Espagueti", "emoji": "🍝", "difficulty": "medium" },
+    { "text": "Sushi", "es": "Sushi", "emoji": "🍣", "difficulty": "medium" },
+    { "text": "Taco", "es": "Taco", "emoji": "🌮", "difficulty": "medium" },
+    { "text": "Watermelon", "es": "Sandía", "emoji": "🍉", "difficulty": "medium" },
+    { "text": "Coffee", "es": "Café", "emoji": "☕", "difficulty": "medium" },
+    { "text": "Cheese", "es": "Queso", "emoji": "🧀", "difficulty": "medium" },
+    { "text": "Pretzel", "es": "Pretzel", "emoji": "🥨", "difficulty": "medium" },
+    { "text": "Avocado", "es": "Aguacate", "emoji": "🥑", "difficulty": "medium" },
+    { "text": "Croissant", "es": "Cruasán", "emoji": "🥐", "difficulty": "hard" },
+    { "text": "Broccoli", "es": "Brócoli", "emoji": "🥦", "difficulty": "hard" },
+    { "text": "Pancakes", "es": "Panqueques", "emoji": "🥞", "difficulty": "hard" },
+    { "text": "Cupcake", "es": "Magdalena", "emoji": "🧁", "difficulty": "hard" },
+    { "text": "Burrito", "es": "Burrito", "emoji": "🌯", "difficulty": "hard" },
+    { "text": "Coconut", "es": "Coco", "emoji": "🥥", "difficulty": "hard" }
+  ]
+}

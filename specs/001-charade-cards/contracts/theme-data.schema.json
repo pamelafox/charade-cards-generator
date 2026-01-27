@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://charade-cards.example.com/schemas/theme-data.json",
+  "title": "ThemeData",
+  "description": "Complete theme file with metadata and all words",
+  "type": "object",
+  "required": ["id", "name", "description", "icon", "words"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]{1,29}$",
+      "description": "Theme identifier (must match filename)"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 50,
+      "description": "Display name"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "Theme description"
+    },
+    "icon": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 8,
+      "description": "Theme icon emoji"
+    },
+    "words": {
+      "type": "array",
+      "minItems": 10,
+      "items": {
+        "$ref": "#/definitions/Word"
+      }
+    }
+  },
+  "definitions": {
+    "Word": {
+      "type": "object",
+      "required": ["text", "emoji"],
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40,
+          "pattern": "^[A-Za-z][A-Za-z0-9 -]*$",
+          "description": "The word to act out"
+        },
+        "emoji": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 8,
+          "description": "Emoji representation (single or sequence)"
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://upload\\.wikimedia\\.org/",
+          "description": "Wikipedia Commons thumbnail URL"
+        },
+        "imageLicense": {
+          "type": "string",
+          "enum": ["PD", "CC0", "PD-old", "PD-US"],
+          "description": "License for the Wikipedia image"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["easy", "medium", "hard"],
+          "default": "medium",
+          "description": "Word difficulty level"
+        }
+      },
+      "dependencies": {
+        "imageUrl": ["imageLicense"],
+        "imageLicense": ["imageUrl"]
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "actions",
+  "name": "Actions",
+  "description": "Verbs and activities to perform",
+  "icon": "🏃",
+  "words": [
+    { "text": "Running", "es": "Corriendo", "emoji": "🏃🏽", "difficulty": "easy" },
+    { "text": "Sleeping", "es": "Durmiendo", "emoji": "😴", "difficulty": "easy" },
+    { "text": "Dancing", "es": "Bailando", "emoji": "💃🏾", "difficulty": "easy" },
+    { "text": "Swimming", "es": "Nadando", "emoji": "🏊🏼", "difficulty": "easy" },
+    { "text": "Eating", "es": "Comiendo", "emoji": "🍽️", "difficulty": "easy" },
+    { "text": "Laughing", "es": "Riendo", "emoji": "😂", "difficulty": "easy" },
+    { "text": "Crying", "es": "Llorando", "emoji": "😢", "difficulty": "easy" },
+    { "text": "Jumping", "es": "Saltando", "emoji": "🦘", "difficulty": "easy" },
+    { "text": "Waving", "es": "Saludando", "emoji": "👋🏿", "difficulty": "easy" },
+    { "text": "Clapping", "es": "Aplaudiendo", "emoji": "👏🏻", "difficulty": "easy" },
+    { "text": "Cooking", "es": "Cocinando", "emoji": "👩🏾‍🍳", "difficulty": "medium" },
+    { "text": "Painting", "es": "Pintando", "emoji": "🎨", "difficulty": "medium" },
+    { "text": "Singing", "es": "Cantando", "emoji": "🎤", "difficulty": "medium" },
+    { "text": "Fishing", "es": "Pescando", "emoji": "🎣", "difficulty": "medium" },
+    { "text": "Driving", "es": "Conduciendo", "emoji": "🚗", "difficulty": "medium" },
+    { "text": "Reading", "es": "Leyendo", "emoji": "📖", "difficulty": "medium" },
+    { "text": "Climbing", "es": "Escalando", "emoji": "🧗🏽", "difficulty": "medium" },
+    { "text": "Sneezing", "es": "Estornudando", "emoji": "🤧", "difficulty": "medium" },
+    { "text": "Yawning", "es": "Bostezando", "emoji": "🥱", "difficulty": "hard" },
+    { "text": "Surfing", "es": "Surfeando", "emoji": "🏄🏼", "difficulty": "hard" },
+    { "text": "Juggling", "es": "Haciendo Malabares", "emoji": "🤹🏿", "difficulty": "hard" },
+    { "text": "Meditating", "es": "Meditando", "emoji": "🧘🏻", "difficulty": "hard" },
+    { "text": "Shivering", "es": "Temblando", "emoji": "🥶", "difficulty": "hard" },
+    { "text": "Hiccupping", "es": "Con Hipo", "emoji": "😮", "difficulty": "hard" }
+  ]
+}
